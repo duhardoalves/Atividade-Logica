@@ -94,9 +94,10 @@
 
 //Ano Bissexto:
 
-//  let ano = prompt("Digite um ano")
-
-// if ((ano % 4 == 0 && !(ano % 100 == 0)) || ano % 400 == 0)
+// const ano = Number(prompt("Digite um ano"))
+// if(Number.isNaN(ano))
+//     alert("Erro: Digite apenas números válidos")
+// else if ((ano % 4 == 0 && !(ano % 100 == 0)) || ano % 400 == 0)
 //     alert("O ano é bissexto")
 // else
 //     alert("O ano não é bissexto") 
