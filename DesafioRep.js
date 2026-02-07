@@ -24,9 +24,9 @@ while (!sair)
     else if (acomp === "n" || acomp === "N")
         alert("Não será adicionado acompanhamento")
 
-    const sair = prompt("Deseja fazer outro pedido? (s/n)")
+    const pedido = prompt("Deseja fazer outro pedido? (s/n)")
 
-    if (acomp === "n" || acomp === "N"){
+    if (pedido === "n" || pedido === "N"){
         alert("Até a próxima")
         sair = true
     }
